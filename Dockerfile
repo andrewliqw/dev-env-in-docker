@@ -1,10 +1,10 @@
 FROM ubuntu:16.04
 
-RUN apt-get -y update && apt-get -y upgrade && \
+RUN apt-get -y update && apt-get -y upgrade && apt-get -y install \
 # development tools
-apt-get -y install g++ gcc make \
-# wget
-wget \
+g++ gcc make \
+# editor and utilities
+vim emacs less wget man-db \
 # python 2.7
 python \
 # php
