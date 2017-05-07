@@ -5,6 +5,8 @@ RUN apt-get -y update && apt-get -y upgrade && apt-get -y install \
 g++ gcc make \
 # editor and utilities
 vim emacs less wget man-db \
+# version control
+git \
 # python 2.7
 python \
 # php
